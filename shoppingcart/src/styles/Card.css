@@ -1,0 +1,13 @@
+.card_img{
+    
+    height: 100%;
+    width: 10%;
+
+}
+.card_span{
+    display: block;
+}
+.card{
+
+border: 3px black;
+}
