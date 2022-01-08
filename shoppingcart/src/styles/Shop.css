@@ -1,8 +1,13 @@
 .card_container{
     display: flex;
     flex-wrap: wrap;
-    
+    padding-left: 80px;
+    padding-right: 0px;
 }
 .main{
- display: inline-flex;
+ display: block;
+ text-align: center;
+}
+.banner{
+    margin: auto;
 }
