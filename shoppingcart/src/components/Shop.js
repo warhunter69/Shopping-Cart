@@ -1,18 +1,9 @@
 import NavBar from './NavBar'
 import Card from './Card';
 import '../styles/Shop.css';
-import { useEffect, useState } from 'react';
 
 const Shop = (props) =>{
-    const [items,setItems] = useState([]);
-    /*const clickCard = (e) =>{
-        //console.log(e.target);
-        const name = e.target.alt;
-        setItems(items => [...items, name]);
-    }
-    useEffect(()=>{
-        console.log(items);
-    },[items])*/
+    
 
     return(
         <>
