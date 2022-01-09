@@ -5,14 +5,14 @@ import { useEffect, useState } from 'react';
 
 const Shop = (props) =>{
     const [items,setItems] = useState([]);
-    const clickCard = (e) =>{
+    /*const clickCard = (e) =>{
         //console.log(e.target);
         const name = e.target.alt;
         setItems(items => [...items, name]);
     }
     useEffect(()=>{
         console.log(items);
-    },[items])
+    },[items])*/
 
     return(
         <>
@@ -22,7 +22,7 @@ const Shop = (props) =>{
             <h1>{props.name}</h1>
             </div>
             <div className='card_container'>
-            {props.cards.map((card, index) => ( <Card key={index} src={card.image} name ={card.name} clickCard={clickCard}/> ))}
+            {props.cards.map((card, index) => ( <Card key={index} src={card.image} name ={card.name} clickCard={props.clickCard}/> ))}
         
                 
                
