@@ -1,9 +1,10 @@
 import NavBar from './NavBar'
 import Card from './Card';
 import '../styles/Shop.css';
+import { useState } from 'react';
 
 const Shop = (props) =>{
-    
+    const [items,setItems] = useState([]);
     return(
         <>
         <NavBar/>
