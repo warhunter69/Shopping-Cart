@@ -20,6 +20,8 @@ const Card = (props) =>{
                <button  >
                         {hover ? "foo" : "bar"}
                 </button>
+                <input type="number" id="quantity" name="quantity"/>
+
                </div>
         </div>
     )
