@@ -6,8 +6,12 @@ import cat_arr from "./files/cats/cats";
 
 const RouteSwitch = () => {
   const [items,setItems] = useState([]);
+  
   const clickCard = (e) =>{
-    const name = e.target.alt;
+    const img_element = e.currentTarget.children[0];
+    const name = img_element.alt;
+    const img = img_element.src;
+    console.log(e.currentTarget.children[0]);
     setItems(items => [...items, name]);
   }
   useEffect(()=>{
