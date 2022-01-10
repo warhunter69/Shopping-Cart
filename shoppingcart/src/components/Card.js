@@ -17,10 +17,12 @@ const Card = (props) =>{
                <img className='card_img' src={props.src} alt={props.name} />
                <span className='card_span' >{props.name}</span>
                <div className="input_group" hidden={!hover}>
-               <button  >
-                        {hover ? "foo" : "bar"}
-                </button>
+                <label>quantity
                 <input type="number" id="quantity" name="quantity"/>
+                </label>
+                <button  className='btn'>
+                        add to cart
+                </button>
 
                </div>
         </div>

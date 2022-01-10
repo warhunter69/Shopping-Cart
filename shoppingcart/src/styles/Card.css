@@ -32,4 +32,16 @@
     height: 600px; */
     transform: scale(1.2);
   }
-  
+.input_group{
+    display: grid;
+}
+[hidden]{
+    display:none;
+  }
+.btn{
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #20232a;
+}
