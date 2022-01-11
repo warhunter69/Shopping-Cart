@@ -14,7 +14,8 @@ const Cart = () =>{
  return(
      <>
     <div id="mySidepanel" class="sidepanel" style={{width:width}}>
-    <a href="javascript:void(0)" class="closebtn" onClick={closeCart}>&times;</a>
+    {/*<a href="javascript:void(0)" class="closebtn" onClick={closeCart}>&times;</a>}*/}
+    <button class="closebtn" onClick={closeCart}>&times;</button>
     <h1>About</h1>
     <h1 >Services</h1>
     <h1 >Clients</h1>
