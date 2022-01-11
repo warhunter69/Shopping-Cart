@@ -2,8 +2,8 @@
     
     /*height: 100%;
     width: 100%;*/
-    width:  500px; /*1*/
-    height: 500px; /*1*/
+    width:  300px; /*1*/
+    height: 300px; /*1*/
     object-fit: cover;
     /*width: 10%;*/
 
@@ -23,7 +23,9 @@
     transition: 0.3s;
     /*width: 20%;*/
     background-color: whitesmoke;
-    width: 500px; /*card size probtional to img size 1*/
+    width: 300px; /*card size probtional to img size 1*/
+    margin: 20px 10px;
+   
   }
   
 .card:hover {
