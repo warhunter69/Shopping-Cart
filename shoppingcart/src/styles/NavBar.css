@@ -55,6 +55,13 @@ a:visited {
 .logo_span{
     margin-left: 10px;
 }
-.cart{
+.cart_btn{
     margin: auto;
+    background-color:#20232a;
+    margin-top: 14px;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+
 }
