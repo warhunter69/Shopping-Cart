@@ -39,9 +39,14 @@
     display:none;
   }
 .btn{
+    margin-top: 14px;
     border: none; /* Remove borders */
     color: white; /* Add a text color */
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     background-color: #20232a;
+}
+.input_qnty{
+    width: 40px;
+    height: 25px;
 }

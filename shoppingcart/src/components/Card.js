@@ -17,14 +17,14 @@ const Card = (props) =>{
                <img className='card_img' src={props.src} alt={props.name} />
                <span className='card_span' >{props.name}</span>
                <div className="input_group" hidden={!hover}>
-                <label>quantity
-                <input type="number" id="quantity" name="quantity"/>
-                </label>
-                <button  className='btn'>
-                        add to cart
-                </button>
+                  <label>quantity
+                  <input type="number" className='input_qnty' min='1' name="quantity"/>
+                  </label>
+                  <button  className='btn' onClick={props.addtoCart}>
+                          add to cart
+                  </button>
 
-               </div>
+                </div>
         </div>
     )
 }

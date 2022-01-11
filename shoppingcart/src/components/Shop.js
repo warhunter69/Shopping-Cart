@@ -13,7 +13,7 @@ const Shop = (props) =>{
             <h1>{props.name}</h1>
             </div>
             <div className='card_container'>
-            {props.cards.map((card, index) => ( <Card key={index} src={card.image} name ={card.name} clickCard={props.clickCard}/> ))}
+            {props.cards.map((card, index) => ( <Card key={index} src={card.image} name ={card.name} clickCard={props.clickCard} addtoCart={props.addtoCart}/> ))}
         
                 
                
