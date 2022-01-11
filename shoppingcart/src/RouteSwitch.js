@@ -19,15 +19,18 @@ const RouteSwitch = () => {
     
   }
   const addtoCart = (a,e) =>{
-    console.log('hello')
-    console.log(a)
-    console.log(e)
+    //console.log('hello')
+    //console.log(a)
+    //console.log(e)
     /*const img_element = e.currentTarget//.children[0];
     console.log(img_element);
     const name = img_element.alt;
     const img = img_element.src;
     setObj(obj => ({name:name,img:img}))
+
     setItems(items => [...items, obj]);*/
+    setObj(a);
+    setItems(items => [...items, obj]);
   }
   useEffect(()=>{
     console.log(items);
