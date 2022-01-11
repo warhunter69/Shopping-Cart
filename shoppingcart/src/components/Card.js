@@ -20,7 +20,7 @@ const Card = (props) =>{
                   <label>quantity
                   <input type="number" className='input_qnty' min='1' name="quantity"/>
                   </label>
-                  <button  className='btn' onClick={props.addtoCart}>
+                  <button  className='btn' onClick={(e)=>props.addtoCart({name:props.name,img:props.src},e)}>
                           add to cart
                   </button>
 
