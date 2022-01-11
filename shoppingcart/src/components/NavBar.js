@@ -15,7 +15,8 @@ const NavBar = () =>{
                 <a href="/">Birds</a>
                 <a href="/">Reptiles</a>
 
-                <Cart/>
+                {//<Cart />
+                }
             </div>
         </header>
     )

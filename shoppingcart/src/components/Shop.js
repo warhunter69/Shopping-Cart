@@ -7,7 +7,7 @@ const Shop = (props) =>{
 
     return(
         <>
-        <NavBar/>
+       
         <main className='main'>
             <div className='banner'>
             <h1>{props.name}</h1>
