@@ -4,7 +4,6 @@ import Cartcard from './Cartcard';
 
 const Cart = (props) =>{
     const [width,setWidth] = useState("0%");
-    const [id,setId] = useState("mySidepanel");
     const [width2,setWidth2] = useState("0%");
     const openCart = () =>{
         //
@@ -16,15 +15,7 @@ const Cart = (props) =>{
         setWidth("0%");
         setWidth2("0%");
     }
-    const test = (e) =>{
-        console.log(e.target.id)
-        const targetId = e.target.id;
-        if(targetId !== id){
-            setWidth(0);
-        }
-        //will have to be done from router to put click on body
-        
-    }
+    
  return(
      <>
     <div className='sidepanel2' style={{width:width2}} onClick={closeCart}></div>
