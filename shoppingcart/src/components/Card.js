@@ -24,7 +24,7 @@ const Card = (props) =>{
                   <label  hidden={!hover}>quantity
                   <input type="number" className='input_qnty' min='1' name="quantity" onInput={handleChange}/>
                   </label>
-                  {<span >price:{props.price}</span>}
+                  {<span >price:{qnty*(props.price)}</span>}
                   <button  hidden={!hover} className='btn' onClick={(e)=>props.addtoCart({name:props.name,img:props.src,qnty:qnty,price:props.price},e)}>
                           add to cart
                   </button>

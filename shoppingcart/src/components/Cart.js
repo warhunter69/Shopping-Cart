@@ -27,7 +27,7 @@ const Cart = (props) =>{
     }
  return(
      <>
-    <div className='sidepanel2' style={{width:width2}} ></div>
+    <div className='sidepanel2' style={{width:width2}} onClick={closeCart}></div>
     <div id="mySidepanel" className="sidepanel" style={{width:width}} >
     {/*<a href="javascript:void(0)" class="closebtn" onClick={closeCart}>&times;</a>}*/}
     <button className="closebtn" onClick={closeCart}>&times;</button>
