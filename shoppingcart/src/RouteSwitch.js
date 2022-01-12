@@ -7,7 +7,7 @@ import cat_arr from "./files/cats/cats";
 
 const RouteSwitch = () => {
   const [items,setItems] = useState([]);
-  const [obj,setObj] = useState({});
+  //const [obj,setObj] = useState({});
 
   const clickCard = (e) =>{
     //const img_element = e.currentTarget.children[0];
@@ -21,8 +21,9 @@ const RouteSwitch = () => {
   }
   const addtoCart = (a,e) =>{
    
-    setObj(a);
-    setItems(items => [...items, obj]);
+    //setObj(a);
+    console.log('a',a)
+    setItems(items => [...items, a]);
     
   }
   useEffect(()=>{
@@ -33,7 +34,8 @@ const RouteSwitch = () => {
   return (
     
     <BrowserRouter>
-     <NavBar/>
+     <NavBar Cartcards={items}/>
+
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/shop" element={<Shop/>}/>

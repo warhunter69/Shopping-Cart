@@ -8,7 +8,7 @@ const Cart = (props) =>{
 
     const openCart = () =>{
         //
-        setWidth("250px");
+        setWidth("750px");
     }
     const closeCart = () =>{
         //
@@ -28,7 +28,7 @@ const Cart = (props) =>{
     <div id="mySidepanel" className="sidepanel" style={{width:width}} onClick={test}>
     {/*<a href="javascript:void(0)" class="closebtn" onClick={closeCart}>&times;</a>}*/}
     <button className="closebtn" onClick={closeCart}>&times;</button>
-    {props.cards.map((card, index) => ( <Cartcard key={index} src={card.image} name ={card.name}/> ))}
+    {props.Cartcards.map((card, index) => ( <Cartcard key={index} src={card.img} name ={card.name}/> ))}
 
   </div>
   

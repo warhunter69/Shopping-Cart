@@ -2,7 +2,7 @@ import '../styles/NavBar.css';
 import cat_logo from '../files/cat_logo2.png'
 import { Link } from "react-router-dom";
 import Cart from './Cart';
-const NavBar = () =>{
+const NavBar = (props) =>{
    
     return(
         <header className="sticky-bar">
@@ -15,7 +15,7 @@ const NavBar = () =>{
                 <a href="/">Birds</a>
                 <a href="/">Reptiles</a>
 
-                {//<Cart />
+                {<Cart Cartcards={props.Cartcards}/>
                 }
             </div>
         </header>
