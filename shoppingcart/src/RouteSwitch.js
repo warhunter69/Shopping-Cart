@@ -28,7 +28,7 @@ const RouteSwitch = () => {
   }
   const removeCard = (item,e) =>{
         console.log('rem',item);
-        
+        setItems(items.filter(x => x!== item))
     //
   }
   useEffect(()=>{
