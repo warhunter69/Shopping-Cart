@@ -2,10 +2,15 @@
 .sidepanel {
     height: 100%; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    /*position: fixed; /* Stay in place */
+    position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
+    padding: 0;
+    text-align: left;
+    z-index: 1; /* Stay on top */
+    /*top: 0;
+    left: 0;*/
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -51,4 +56,7 @@
   }
 .Sidecontainer{
   display: inline-block;
+}
+.Content{
+  position: relative;
 }
