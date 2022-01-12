@@ -15,7 +15,7 @@ const NavBar = (props) =>{
                 <a href="/">Birds</a>
                 <a href="/">Reptiles</a>
 
-                {<Cart Cartcards={props.Cartcards}/>
+                {<Cart items={props.items}/>
                 }
             </div>
         </header>

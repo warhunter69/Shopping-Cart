@@ -6,6 +6,8 @@ const Cartcard = (props) => {
 
             <img className='card_img' src={props.img} alt={props.name} />
             <span className='card_span' >{props.name}</span>
+            <span className='card_span' >Qnty:{props.qnty}</span>
+            <span className='card_span' >price:{props.qnty*props.price}</span>
 
 
         </div>

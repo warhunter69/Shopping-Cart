@@ -34,7 +34,7 @@ const RouteSwitch = () => {
   return (
     
     <BrowserRouter>
-     <NavBar Cartcards={items}/>
+     <NavBar items={items}/>
 
       <Routes>
         <Route path="/" element={<App />} />

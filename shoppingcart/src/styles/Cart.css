@@ -55,6 +55,7 @@
   }
 .Sidecontainer{
   display: inline-block;
+  margin-bottom: 100px;
 }
 .Content{
   position: relative;
@@ -71,4 +72,12 @@
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+.btn_white{
+  font-size: 20px;
+  cursor: pointer;
+  background-color:white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
 }
