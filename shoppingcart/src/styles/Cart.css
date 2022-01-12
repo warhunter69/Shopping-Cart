@@ -6,8 +6,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    padding: 0;
-    text-align: left;
+    padding: 0; 
     z-index: 1; /* Stay on top */
     /*top: 0;
     left: 0;*/
@@ -59,4 +58,17 @@
 }
 .Content{
   position: relative;
+}
+.sidepanel2 {
+  height: 100%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  /*position: fixed; /* Stay in place */
+  position: fixed;
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgba(12, 12, 12, 0.356); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
 }
