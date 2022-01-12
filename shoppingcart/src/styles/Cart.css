@@ -49,3 +49,6 @@
   .openbtn:hover {
     background-color: #444;
   }
+.Sidecontainer{
+  display: inline-block;
+}
