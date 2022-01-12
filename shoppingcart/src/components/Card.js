@@ -20,11 +20,12 @@ const Card = (props) =>{
            
                <img className='card_img' src={props.src} alt={props.name} />
                <span className='card_span' >{props.name}</span>
-               <div className="input_group" hidden={!hover}>
-                  <label>quantity
+               <div className="input_group">
+                  <label  hidden={!hover}>quantity
                   <input type="number" className='input_qnty' min='1' name="quantity" onInput={handleChange}/>
                   </label>
-                  <button  className='btn' onClick={(e)=>props.addtoCart({name:props.name,img:props.src,qnty:qnty},e)}>
+                  {<span >price:{props.price}</span>}
+                  <button  hidden={!hover} className='btn' onClick={(e)=>props.addtoCart({name:props.name,img:props.src,qnty:qnty,price:props.price},e)}>
                           add to cart
                   </button>
 
