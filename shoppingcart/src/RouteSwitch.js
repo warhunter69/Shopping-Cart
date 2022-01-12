@@ -26,6 +26,11 @@ const RouteSwitch = () => {
     setItems(items => [...items, a]);
     
   }
+  const removeCard = (item,e) =>{
+        console.log('rem',item);
+        
+    //
+  }
   useEffect(()=>{
     console.log(items);
     //console.log(obj)
@@ -34,7 +39,7 @@ const RouteSwitch = () => {
   return (
     
     <BrowserRouter>
-     <NavBar items={items}/>
+     <NavBar items={items} removeCard={removeCard}/>
 
       <Routes>
         <Route path="/" element={<App />} />

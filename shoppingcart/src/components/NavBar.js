@@ -15,7 +15,7 @@ const NavBar = (props) =>{
                 <a href="/">Birds</a>
                 <a href="/">Reptiles</a>
 
-                {<Cart items={props.items}/>
+                {<Cart items={props.items} removeCard={props.removeCard}/>
                 }
             </div>
         </header>
