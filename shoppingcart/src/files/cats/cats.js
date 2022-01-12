@@ -10,16 +10,16 @@ import snake from './snake.jpeg';
 import tomasw from './tomasw.jpeg';
 
 const cat_arr = [
-    {image:george,name:"george"},
-    {image:beavis,name:"beavis"},
-    {image:butthead,name:"butthead"},
-    {image:jeff,name:"jeff"},
-    {image:micheal,name:"micheal"},
-    {image:patterick,name:"patterick"},
-    {image:sandy,name:"sandy"},
-    {image:sardina,name:"sardina"},
-    {image:snake,name:"snake"},
-    {image:tomasw,name:"tomasw"},
+    {image:george,name:"george",price:10},
+    {image:beavis,name:"beavis",price:20},
+    {image:butthead,name:"butthead",price:25},
+    {image:jeff,name:"jeff",price:30},
+    {image:micheal,name:"micheal",price:60},
+    {image:patterick,name:"patterick",price:100},
+    {image:sandy,name:"sandy",price:150},
+    {image:sardina,name:"sardina",price:45},
+    {image:snake,name:"snake",price:25},
+    {image:tomasw,name:"tomasw",price:55},
 
 ];
 

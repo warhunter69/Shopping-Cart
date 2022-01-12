@@ -3,29 +3,31 @@ import '../styles/Cart.css'
 import Cartcard from './Cartcard';
 
 const Cart = (props) =>{
-    const [width,setWidth] = useState("0px");
+    const [width,setWidth] = useState("0%");
     const [id,setId] = useState("mySidepanel");
-
+    const [width2,setWidth2] = useState("0%");
     const openCart = () =>{
         //
-        setWidth("750px");
+        setWidth("40%");
+        setWidth2("60%");
     }
     const closeCart = () =>{
         //
-        setWidth("0px");
+        setWidth("0%");
+        setWidth2("0%");
     }
     const test = (e) =>{
         console.log(e.target.id)
         const targetId = e.target.id;
         if(targetId !== id){
-            setWidth("0px");
+            setWidth(0);
         }
         //will have to be done from router to put click on body
         
     }
  return(
      <>
-    <div className='sidepanel2' style={{width:width}} ></div>
+    <div className='sidepanel2' style={{width:width2}} ></div>
     <div id="mySidepanel" className="sidepanel" style={{width:width}} >
     {/*<a href="javascript:void(0)" class="closebtn" onClick={closeCart}>&times;</a>}*/}
     <button className="closebtn" onClick={closeCart}>&times;</button>
